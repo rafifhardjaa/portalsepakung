@@ -1,4 +1,4 @@
-import { Phone } from "@phosphor-icons/react";
+import { Phone } from "lucide-react";
 
 export default function Header() {
   return (
@@ -35,7 +35,7 @@ export default function Header() {
               aria-label="Hubungi Call Center"
               className="inline-flex items-center gap-2 bg-blue-50 text-blue-700 px-4 py-2 rounded-full text-xs md:text-sm font-semibold hover:bg-blue-100 transition-colors"
             >
-              <Phone size={16} weight="bold" aria-hidden="true" />
+              <Phone size={16} aria-hidden="true" />
               <span className="hidden md:inline">Call Center 024-6922 020</span>
               <span className="md:hidden">Bantuan</span>
             </a>
@@ -47,7 +47,7 @@ export default function Header() {
             aria-label="Hubungi Call Center"
             className="sm:hidden inline-flex items-center justify-center bg-blue-50 text-blue-700 p-2.5 rounded-full hover:bg-blue-100 transition-colors"
           >
-            <Phone size={18} weight="bold" aria-hidden="true" />
+            <Phone size={18} aria-hidden="true" />
           </a>
         </div>
       </div>

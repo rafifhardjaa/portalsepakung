@@ -1,64 +1,66 @@
-/**
- * Data 8 layanan utama — minimal, identik dengan semarangkab.go.id/landing
- * Tanpa badge/status/category noise
- */
-const services = [
+export const services = [
   {
-    id: "website-utama",
-    title: "WEBSITE UTAMA",
-    description: "Portal Informasi Resmi Pemerintah Kabupaten Semarang",
-    url: "https://semarangkab.go.id",
-    icon: "House",
+    id: 'utama',
+    title: 'WEBSITE UTAMA',
+    desc: 'Portal berita resmi, agenda pimpinan, dan pengumuman daerah.',
+    url: 'https://semarangkab.go.id',
+    icon: 'Globe',
+    badge: 'Portal Resmi'
   },
   {
-    id: "lapor-bupati",
-    title: "LAPOR BUPATI",
-    description: "Kanal Aspirasi & Pengaduan Masyarakat Terpadu",
-    url: "https://laporbupati.semarangkab.go.id",
-    icon: "ChatCenteredDots",
+    id: 'lapor',
+    title: 'LAPOR BUPATI',
+    desc: 'Saluran aspirasi dan pengaduan pelayanan publik warga.',
+    url: 'https://laporbupati.semarangkab.go.id',
+    icon: 'MessageSquareShare',
+    badge: 'Aspirasi'
   },
   {
-    id: "produk-hukum",
-    title: "PRODUK HUKUM",
-    description: "JDIH Dokumentasi & Informasi Hukum Daerah",
-    url: "https://jdih.semarangkab.go.id",
-    icon: "Scales",
+    id: 'jdih',
+    title: 'PRODUK HUKUM (JDIH)',
+    desc: 'Dokumentasi Perda, Perbup, dan keputusan bupati terlengkap.',
+    url: 'https://jdih.semarangkab.go.id',
+    icon: 'Gavel',
+    badge: 'Regulasi'
   },
   {
-    id: "open-data",
-    title: "OPEN DATA",
-    description: "Portal Satu Data Terbuka Kabupaten Semarang",
-    url: "https://opendata.semarangkab.go.id",
-    icon: "Database",
+    id: 'opendata',
+    title: 'OPEN DATA',
+    desc: 'Satu data statistik sektoral dan informasi publik terbuka.',
+    url: 'https://data.semarangkab.go.id',
+    icon: 'Database',
+    badge: 'Statistik'
   },
   {
-    id: "lpse",
-    title: "LPSE",
-    description: "Layanan Pengadaan Secara Elektronik",
-    url: "https://lpse.semarangkab.go.id",
-    icon: "ShoppingBag",
+    id: 'lpse',
+    title: 'LPSE KAB. SEMARANG',
+    desc: 'Layanan Pengadaan Secara Elektronik barang & jasa pemerintah.',
+    url: 'https://lpse.semarangkab.go.id',
+    icon: 'FileCheck2',
+    badge: 'Pengadaan'
   },
   {
-    id: "ppid",
-    title: "PPID",
-    description: "Pejabat Pengelola Informasi dan Dokumentasi",
-    url: "https://ppid.semarangkab.go.id",
-    icon: "Info",
+    id: 'ppid',
+    title: 'PPID KABUPATEN',
+    desc: 'Permohonan informasi publik transparan sesuai UU KIP.',
+    url: 'https://ppid.semarangkab.go.id',
+    icon: 'Info',
+    badge: 'KIP'
   },
   {
-    id: "simtaru",
-    title: "SIMTARU",
-    description: "Sistem Informasi Tata Ruang Kabupaten Semarang",
-    url: "https://simtaru.semarangkab.go.id",
-    icon: "MapTrifold",
+    id: 'simtaru',
+    title: 'SIMTARU',
+    desc: 'Sistem informasi tata ruang wilayah dan izin pemanfaatan.',
+    url: 'https://simtaru.semarangkab.go.id',
+    icon: 'Map',
+    badge: 'Tata Ruang'
   },
   {
-    id: "siappndan",
-    title: "SIAPPNDAN",
-    description: "Sistem Informasi Pendapatan Daerah",
-    url: "https://bapenda.semarangkab.go.id",
-    icon: "Receipt",
+    id: 'siappndan',
+    title: 'SIAPPNDAN',
+    desc: 'Pelayanan administrasi pajak dan retribusi daerah terpadu.',
+    url: 'https://siappndan.semarangkab.go.id',
+    icon: 'Receipt',
+    badge: 'Pajak Daerah'
   },
 ];
-
-export default services;

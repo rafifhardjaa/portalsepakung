@@ -22,6 +22,7 @@ export default function Footer() {
               href="https://wa.me/6289673251295"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Hubungi via WhatsApp 0896 7325 1295 di tab baru"
               className="hover:text-blue-600 hover:underline"
             >
               0896 7325 1295
@@ -29,7 +30,7 @@ export default function Footer() {
           </p>
         </div>
         <div className="mt-6 pt-4 border-t border-slate-100">
-          <p className="text-[11px] text-slate-400">
+          <p className="text-[11px] text-slate-500">
             © {year} Pemerintah Kabupaten Semarang. Semua Hak Dilindungi.
           </p>
         </div>
