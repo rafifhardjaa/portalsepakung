@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://semarangkab.go.id/sitemap.xml
